@@ -1,0 +1,249 @@
+html{
+	color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    display: block;
+}
+
+body{
+	font-family: "Trebuchet MS","Unimed Sans","Arial";
+	-webkit-font-smoothing: antialiased;
+	font-size: 1em;
+    color: #5b5c65;
+    transform-origin: 0 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body.a{
+	color: #00995d;
+    text-decoration: none;
+}
+
+div{
+	display: block;
+}
+
+h1{
+	font-size: 3.75em;
+	line-height: 1.1em!important;
+}
+ul{
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+	padding: 0;
+}
+
+li{
+	display: list-item;
+    text-align: -webkit-match-parent;
+ 	text-decoration:none;
+ 	line-height: 20px;
+ 	list-style: none;
+}
+img{
+	max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+header{
+	display: block;
+	position: relative;
+}
+
+#wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;	
+}
+
+.navegacao{
+	padding: 20px 0;
+}
+
+.containerMenu{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+#logo{
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0!important;
+}
+
+#botaoMenu{
+	font-family: 'icomoon'!important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: middle;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.menuItens{
+
+}
+
+.menuMobile{
+
+}
+
+.itens{
+	
+}
+
+#login{
+	
+}
+
+
+
+.container{
+	margin: 0, auto;
+}
+
+.banner{
+	    min-height: 106px;
+	    margin-bottom: 25px;
+	    top: 20%;
+	    margin: 0 3.5%;
+	    bottom: 10%;
+	    left: 10%;
+	    right: 10%;
+	    
+}
+
+.corpo{
+
+}
+
+.colunas1{
+
+}
+
+.secao{
+
+}
+
+.icone{
+
+}
+
+.texto{
+
+}
+.itens a {
+ 	color:#828282;
+ 	text-decoration:none;
+ 	font-family: Trebuchet MS;
+ 	padding-right: 5px;
+ 	padding-left: 5px;
+}
+
+.itens a:hover{
+	color: #00995d;
+}
+
+
+@media (min-width: 1025px){
+
+	#login{
+		float: left;
+    	color: #828282;
+    	text-decoration: none;
+    	font-family: Trebuchet MS;
+	}
+
+	.itens a{
+		float: left;
+	    color: #828282;
+	    text-decoration: none;
+	}
+
+	.itens a:hover{
+	color: #00995d;
+}
+
+	#divbotaoMenu{
+		display: none;
+	}
+
+	.menuItens{
+		display: flex;
+	    align-items: center;
+	    flex-grow: 2;
+	}
+
+	.menuMobile{
+		display:none;
+	}
+
+	.containerMenu ul{
+		margin: 0 10px 0 40px;
+	    flex-grow: 2;
+	}
+
+	.containerMenu li{
+		float: left;
+	    color: #828282;
+	    text-decoration: none;
+	    list-style: none;
+	}
+
+	#login{
+		border: 1px solid #828282;
+	    padding: 5px 10px;
+	    border-radius: 5px;
+	    flex-shrink: 0;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	#botaoMenu{
+		background-color: #00995d;
+	    color: #fff;
+	    font-size: 2em;
+	    padding: 10px;
+	    border: 0;
+	    width: 64px;
+	    height: 64px;
+	}
+
+	.menuItens{
+		display: block!important;
+    	background-color: #00613b;
+	    position: fixed;
+	    top: 64px;
+	    right: 0;
+	    bottom: 0;
+	    width: 280px;
+	    z-index: 100;
+	    padding: 20px;
+	    box-sizing: border-box;
+	    transition: transform .5s;
+	    text-align: right;
+	    overflow-y: auto;		
+	}
+}

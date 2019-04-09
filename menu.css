@@ -1,0 +1,71 @@
+.topo{
+	font-family: Arial;
+	font-size: 14px;
+}
+
+#logo{
+	max-width: 100%;
+	height: auto;
+	padding-left: 100px;
+}
+
+.menu ul{
+	margin: 0 10px 0 40px;
+	padding-left: 18px;
+	list-style: none;
+}
+.itens a{
+ 	color:#828282;
+ 	text-decoration:none;
+ 	font-family: Trebuchet MS;
+}
+ul{
+	display: block;
+}
+li{
+	float: left;
+	color:#828282;
+ 	text-decoration:none;
+ 	line-height: 20px;
+}
+#botaoLogin{
+	border: 1px solid #828282;
+    padding: 5px 10px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-left: 5%;
+}
+.banner img{
+	max-width: 100%;
+}
+.search{
+
+}
+.pipe{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.sections{
+	max-width: 1024px;
+	margin:0 auto;
+}
+
+.blocos{
+	
+	background-color: #00995d;
+	height: 150px;
+    margin: 0 15px;
+    float: left;
+    
+}
+
+@media (min-width: 1025px){
+
+	#botaoLogin{
+		float: left;
+    	color: #828282;
+    	text-decoration: none;
+    	font-family: Trebuchet MS;
+	}
+}
